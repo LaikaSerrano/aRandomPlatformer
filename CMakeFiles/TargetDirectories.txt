@@ -1,0 +1,5 @@
+/Users/laikaserrano/dev/cpp/platformer/CMakeFiles/edit_cache.dir
+/Users/laikaserrano/dev/cpp/platformer/CMakeFiles/rebuild_cache.dir
+/Users/laikaserrano/dev/cpp/platformer/src/CMakeFiles/aRandomPlatformer.dir
+/Users/laikaserrano/dev/cpp/platformer/src/CMakeFiles/edit_cache.dir
+/Users/laikaserrano/dev/cpp/platformer/src/CMakeFiles/rebuild_cache.dir
