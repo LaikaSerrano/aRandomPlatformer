@@ -1,0 +1,38 @@
+# Ignore CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+
+# Ignore Makefiles and generated executables
+Makefile
+*.o
+*.a
+*.exe
+*.out
+
+# Ignore generated project files for various IDEs
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.sln
+*.vcxproj
+*.xcodeproj
+*.idea/
+*.tmproj
+
+# Ignore project-specific settings files
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+
+# Ignore temporary and backup files
+*~
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
