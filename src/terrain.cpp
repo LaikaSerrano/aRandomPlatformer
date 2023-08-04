@@ -3,12 +3,16 @@
 /*
  * Terrain class, this class will be herited to create platforms and other things
  * class Terrain{
- *	public : 
- *		Terrain(sf::Color color);
- *		~Terrain();
- *		void draw(sf::RenderWindow &window);
+ * 	public :
+ * 		Terrain(sf::Color color, int sizeX, int sizeY, int posX, int posY);
+ * 		~Terrain();
+ * 		void draw(sf::RenderWindow &window);
  *		void applyGravity(Player &player);
- * }
+ *		void setPos(float x, float y);
+ *	private : 
+ *		sf::Color color;
+ *		sf::RectangleShape rect;
+ * };
  * */
 
 Terrain::Terrain(sf::Color color, int sizeX, int sizeY, int posX, int posY){
