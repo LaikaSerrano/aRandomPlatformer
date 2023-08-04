@@ -5,7 +5,7 @@
 int main()
 {
     // Create the SFML window
-	sf::VideoMode videoMode(800, 600, 32); 
+	sf::VideoMode videoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 32); 
 	sf::RenderWindow window(videoMode, "Platformer");
 
 	//create the player
@@ -13,8 +13,7 @@ int main()
 	player.setPos(100, 100);	    
 	
 	//create the terrain
-	Terrain terrain(sf::Color::Black);
-	terrain.setPos(0, 0);
+	Terrain terrain(sf::Color::Green, SCREEN_WIDTH, SCREEN_HEIGHT, 100, 0);
 
 	// runner
 	while (window.isOpen()){
@@ -25,7 +24,7 @@ int main()
             	if (event.type == sf::Event::Closed)
                 	window.close();
         	}
-		window.clear(sf::Color::Blue);
+		//window.clear(sf::Color::Blue);
 	
 		//draw logic
 		terrain.draw(window);

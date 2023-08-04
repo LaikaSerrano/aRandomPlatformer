@@ -9,7 +9,7 @@
 
 class Terrain{
 	public :
-		Terrain(sf::Color color); 
+		Terrain(sf::Color color, int sizeX, int sizeY, int posX, int posY);
 		~Terrain();
 		void draw(sf::RenderWindow &window);
 		void applyGravity(Player &player);

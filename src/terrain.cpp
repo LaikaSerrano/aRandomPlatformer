@@ -11,9 +11,10 @@
  * }
  * */
 
-Terrain::Terrain(sf::Color color){
+Terrain::Terrain(sf::Color color, int sizeX, int sizeY, int posX, int posY){
 	this->color = color;
-	this->rect = sf::RectangleShape(sf::Vector2f(SCREEN_HEIGHT, SCREEN_HEIGHT));
+	this->rect = sf::RectangleShape(sf::Vector2f(sizeX, sizeY));
+	this->rect.setFillColor(this->color);
 }
 
 Terrain::~Terrain(){}
