@@ -10,6 +10,7 @@ Makefile
 *.a
 *.exe
 *.out
+aRandomPlatformer
 
 # Ignore generated project files for various IDEs
 .vscode/
