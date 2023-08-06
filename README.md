@@ -14,4 +14,4 @@ set(SFML_LIB_DIR "path/to/your/lib")
 ```
 
 --- 
-If any information is needed, please create an issue on the repo or you can interact with me on discord using @laikaTranscat
+If any information is needed, please create an issue on the repo or you can interact with me on discord using @laikatranscat
