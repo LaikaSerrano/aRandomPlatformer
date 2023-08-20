@@ -1,7 +1,8 @@
 #ifndef TERRAIN_HPP
 #define TERRAIN_HPP
 
-#include "consts.hpp"
+#define SCREEN_WIDTH 800
+#define SCREEN_HEIGHT 600
 
 #include <SFML/Graphics.hpp>
 #include "player.hpp"
