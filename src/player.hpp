@@ -19,16 +19,19 @@ class Player{
 		int* getPosition();
 		int getRadius();
 		void jump();
+		bool isOnGround;
 
 	private:
 		sf::CircleShape player;
-		bool isOnGround;
-		bool isJumping;
+		bool isJumping = false;
 		bool maxJumpHeightReached;
 		bool jumpTopReached;
 		double jumpSpeed;
-		double gravity;
-		int groundY = 500;
+		double JUMP_SPEED = 1.;
+		double GRAVITY;
+		double initialY; 
+		int GROUND_HEIGHT = 500;
+		int MAX_JUMP_HEIGHT = 100;		
 		std::chrono::steady_clock::time_point jumpStartTime;
 };
 #endif

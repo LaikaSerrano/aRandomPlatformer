@@ -10,7 +10,7 @@ Makefile
 *.a
 *.exe
 *.out
-aRandomPlatformer
+*aRandomPlatformer
 
 # Ignore generated project files for various IDEs
 .vscode/
@@ -29,7 +29,7 @@ aRandomPlatformer
 *.iws
 *.classpath
 *.project
-
+Folder.DotSettings.user
 # Ignore temporary and backup files
 *~
 *.swp

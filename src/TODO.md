@@ -6,8 +6,8 @@
 * General things
 
 ## Currently working on 
-	* Gravity, create the jump that lower the gravity
-		- Try to fix now that the player is falling too fast
+	- Fix that the player can go through the screen
+	- Set max height and lower the jump speed
 
 ## Bug fixes
 
