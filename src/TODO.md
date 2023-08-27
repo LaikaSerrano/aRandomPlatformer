@@ -5,9 +5,11 @@
 * Terrain
 * General things
 
-## Currently working on 
-	- Fix that the player can go through the screen
-	- Set max height and lower the jump speed
+## Currently working on
+
+- For the jump i think ill need to just create a isOnGround function
+  and then move directly in the main class the player for the size ?
+  idk ill try (for now the player is teleporting all the way up and doesn't want to use a smoother animation :(  )
 
 ## Bug fixes
 

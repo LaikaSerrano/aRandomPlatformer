@@ -3,5 +3,6 @@
 
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
+#define GROUND_HEIGHT_CONST 500 
 
 #endif

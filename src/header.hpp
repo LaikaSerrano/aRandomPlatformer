@@ -12,7 +12,8 @@
  * include headers and lib  *
  * *************************/
 
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp> 
+#include <iostream>
 #include "player.hpp"
 #include "terrain.hpp"
 

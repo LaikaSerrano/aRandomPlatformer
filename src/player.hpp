@@ -1,9 +1,10 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 #include <SFML/Graphics.hpp>
+#include <SFML/System.hpp>
 #include <iostream>
 #include <chrono>
-
+#include <thread>
 #include "consts.hpp"
 
 class Player{
@@ -15,22 +16,23 @@ class Player{
 		void draw(sf::RenderWindow &window);
 		void setPos(int x, int y);
 		void setColor(sf::Color color);
-		sf::FloatRect getRect();
-		int* getPosition();
-		int getRadius();
 		void jump();
+		int* getPosition();
+		int jumpHeight = -300;
+		int getRadius();
+		double jumpSpeed;
+		double initialY; 
 		bool isOnGround;
-
-	private:
-		sf::CircleShape player;
 		bool isJumping = false;
 		bool maxJumpHeightReached;
 		bool jumpTopReached;
-		double jumpSpeed;
+		sf::CircleShape player;
+		sf::FloatRect getRect();
+
+	private:
 		double JUMP_SPEED = 1.;
 		double GRAVITY;
-		double initialY; 
-		int GROUND_HEIGHT = 500;
+		int GROUND_HEIGHT = GROUND_HEIGHT_CONST;
 		int MAX_JUMP_HEIGHT = 100;		
 		std::chrono::steady_clock::time_point jumpStartTime;
 };
